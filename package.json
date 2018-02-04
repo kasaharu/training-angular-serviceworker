@@ -5,6 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "node-static": "ng build --prod && static dist",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
